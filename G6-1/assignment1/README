@@ -1,0 +1,33 @@
+---------------------------------------------------------
+|                    Assignment 1                       |
+|            Giannoukkos Panayiotis 2280                |
+|            Choropanitis Paschalis 2453                |
+|                       Group 6                         |
+---------------------------------------------------------
+
+Compile:
+
+    To compile this assignment we included a Makefile to make
+    the process much easier. All you hava to to is run the
+    command:
+        
+        $ make all
+
+    You can find each make target inside the Makefile.
+
+Execution:
+    
+    To execute the program run the command:
+
+        $ ./assignment1 <int> <input_file>
+
+    where <int> is the size of the buffer and <input_file>
+    is a file from which we get input. After execution, a
+    file called `output` will be created. Using the command:
+
+        $ diff <input_file> output
+
+    we check if the job was done correctly.
+
+    For your convenience we include "mega_book.txt" to be used
+    as large input and "mini.txt" to be used as a small input. 

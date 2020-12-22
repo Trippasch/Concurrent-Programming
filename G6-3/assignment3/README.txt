@@ -1,0 +1,22 @@
+---------------------------------------------------------
+|                    Assignment 3                       |
+|            Giannoukkos Panayiotis 2280                |
+|            Choropanitis Paschalis 2453                |
+|                       Group 6                         |
+---------------------------------------------------------
+
+Compile:
+
+    To compile this assignment we included a Makefile to make
+    the process much easier. All you hava to to is run the
+    command:
+
+        $ make all
+
+    You can find each make target inside the Makefile.
+
+Execute:
+
+    To execute the program, run the command:
+
+        ./train
